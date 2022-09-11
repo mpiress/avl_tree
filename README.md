@@ -34,9 +34,14 @@
 </p>
 
 <p align="justify">
-	Em uma árvore AVL desbalanceada, um total de 4 rotações podem ser realizadas, duas simples e duas duplas. Considera-se rotações simples esquerda e/ou direita a movimentação da estrutura em um único processo. Essas são aplicadas sempre que o fator de peso do nó desbalanceado coincidir em sinal com a sub-árvore que levou ao desbalanceamento. Observe abaixo na Fig 2 um exemplo de rotação simples para direita. Neste, note que o sinal dos fatores de peso que induziram o desbalanceamento e da sub-árvore causadora do mesmo são iguais.    
+	Em uma árvore AVL desbalanceada, um total de 4 rotações podem ser realizadas, duas simples e duas duplas. Considera-se rotações simples esquerda e/ou direita a movimentação da estrutura em um único processo. Essas são aplicadas sempre que o fator de peso do nó desbalanceado coincidir em sinal com a sub-árvore que levou ao desbalanceamento. Observe abaixo na Fig 2 um exemplo de rotação simples para direita. Neste, note que o sinal dos fatores de peso do nó que gerou o desbalanceamento (i.e., nó 8) e da sub-árvore causadora do mesmo (i.e., 4) são iguais. Isso caracteriza uma rotação simples para direita, uma vez que ambos os sinais são negativos, o que indica que o desbalanceamento gerado está na esquerda.   
 </p>
 
 <p align="center">
 <img src="imgs/rsd.png"/> 
+<caption> Fig 2. Exemplo de rotação à direita para rebalanceameto da árvore binária.</caption> 
+</p>
+
+<p align="justify">
+	Ainda considerando a Fig 2
 </p>
