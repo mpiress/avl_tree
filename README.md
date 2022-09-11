@@ -27,6 +27,7 @@
 
 <p align="center">
 <img src="imgs/avl.png"/> 
+<caption> Fig 1. Exemplo de árvore AVL. </caption>
 </p>
 
 <p align="justify">
@@ -43,5 +44,12 @@
 </p>
 
 <p align="justify">
-	Ainda considerando a Fig 2
+	Considerando ainda o exemplo da Fig 2, observe que ao produzir o rebalanceamento necessário, neste caso, obtivemos duas grandes modificações. Primeiro, como o desbalanceamento ocorreu na raiz da árvore, essa sofreu modificação, deixando de ser o nó 8 para se tornar o nó 4. Segundo, o filho direito de 4, representado pelo nó 6, deixa de conectar a ele para se tornar o filho esquerdo do nó 8. Esse segundo passo é necessário para garantir a integridade das regras básicas de uma árvore binária, a qual define a existência de apenas um filho na esquerda e um como filho direito. Então, ao imaginar a rotação é preciso observar essas peculiaridades para não errar a recomposição da estrutura. Vejamos agora como proceder sob modelos de rotação dupla. A Fig 3 detalha um exemplo para este caso. 
 </p>
+
+<p align="center">
+<img src="imgs/rdd.png"/> 
+<caption> Fig 3. Exemplo de rotação dupla à direita para rebalanceameto da árvore binária.</caption> 
+</p>
+
+
