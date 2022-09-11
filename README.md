@@ -25,10 +25,15 @@
 	O fator de peso é utilizado para identificar quando a árvore se apresenta desbalanceada, para com isso identificar que tipo de rotação é preciso empregar na estrutura para que essa volta e se manter aproximadamente balanceada. A abordagem do fator de peso pode ser observada através da Fig 1. 
 </p>
 
-<p align="center">
+<figure align="center">
+
 <img src="imgs/avl.png"/> 
-<figcaption align="center"> Fig 1. Exemplo de árvore AVL. </figcaption>
-</p>
+<caption> Teste </caption>
+
+</figure>
+
+<p align="center"> Fig 1. Exemplo de árvore AVL. </p>
+
 
 <p align="justify">
 	Observe, por meio da representação da Fig 1, que os fatores de peso podem se apresentar entre -1 e +1. Isso demonstra que a árvore em questão está balanceada segundo suas regras. Para obter esse fator de peso, consideramos a avaliação do nível de altura do filho mais profundo de cada sub-árvore (i.e., esquerda e direita). Quando uma sub-árvore esquerda é avaliada, seu valor de peso se apresenta como negativo. Pelo contrário, quando a sub-árvore direita é observada, essa leva para os níveis mais acima valores positivos de altura. Então, uma árvore AVL se encontra desbalanceada se o fator de peso de um dado nó excede o limiar entre -1 e +1. Neste caso, as rotações são realizadas para retornar a estrutura à condições aceitáveis. 
