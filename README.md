@@ -27,6 +27,7 @@
 
 <p align="center">
 <img src="imgs/avl.png"/> 
+
 <caption> Fig 1. Exemplo de árvore AVL. </caption>
 </p>
 
